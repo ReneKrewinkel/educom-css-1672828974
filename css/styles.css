@@ -9,3 +9,16 @@
     background-color: rgba(255, 0, 0, 0.4);
     display: inline-block;
 }
+
+#Blue-minisquare {
+    width: 20px;
+    height: 20px;
+    color: rgb(252, 16, 232);
+    padding: 20px;
+    margin: 10px;
+    font-size: 7px;
+    background-color: rgba(7, 23, 250, 0.4);
+    display: inline-block;
+}
+
+a { color: rgb(196, 209, 19)}
