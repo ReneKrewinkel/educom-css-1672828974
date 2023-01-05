@@ -24,12 +24,22 @@
 a { color: rgb(196, 209, 19)}
 
 .cascading-parent {
-    font-weight: bold;
+    font-weight: Bold;
     color: #FFF;
 }
 
 .cascading-child {
-    background-color: #000;
+    background-color: rgb(5, 5, 5);
     width: 200px;
     height: 200px;
+    color: #FF0 !important;
+}
+
+.cascading-child2 {
+    background-color: rgb(241, 6, 6) !important;
+    width: 200px;
+    height: 200px;
+}
+.cascading-child3 {
+    color: #F08 !important;
 }
