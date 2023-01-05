@@ -119,8 +119,44 @@ a:hover {
     color: hotpink;
     margin: 300px;
 }
-
 /* selected link */
 a:active {
     color: blue;
+}
+
+.button-container a{
+    width: 200px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #F00;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.button-container a:hover{
+    background-color: #AF1F16;
+    text-decoration: none;
+    margin: 0px;
+}
+
+.new-button a{
+    width: 200px;
+    padding: 10px;
+    margin: 200px;
+    color: var(--white);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.6);
+    text-decoration: none;
+}
+
+.new-button a:hover{
+    background: var(--black);
+    text-decoration: none;
 }
