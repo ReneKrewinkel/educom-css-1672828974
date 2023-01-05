@@ -22,7 +22,7 @@
 }
 
 a { font-size: 22px;
-    color: #F0F;
+    color: rgb(11, 177, 33);
 }
 
 .cascading-parent h2{
@@ -53,4 +53,24 @@ a { font-size: 22px;
 }
 .cascading-child3 {
     color: #F08 !important;
+}
+
+.sizefont {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.site-color {
+    background-color: indigo;
+    color: #FFF;
+}
+
+.site-square {
+    width: 200px;
+    height: 200px;
+}
+
+.site-border{
+    border-style: solid;
+    color: blue;
 }
