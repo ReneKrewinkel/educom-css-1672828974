@@ -1,3 +1,32 @@
+:root{
+    /* Fonts */
+    --regular: "Arial";
+
+    /* COLORS */
+    --dark-brown: #402214;
+    --lighter-brown: #774231;
+    --lightest-brown: #aa4b1b;
+
+    --darker-red: #b31714;
+    --lighter-red: #dc3439;
+
+    --white: #FFF;
+    --black: #000;
+}
+ 
+/* Usage */
+
+h1 {
+    font-family: var(--regular);
+    color: var(--darker-red);
+}
+p1 {
+    font-family: var(--regular);
+    color: var(--lighter-red);
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--dark-brown);
+}
 
 .red-square {
     width: 80px;
