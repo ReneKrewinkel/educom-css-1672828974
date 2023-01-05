@@ -7,6 +7,8 @@ html, body {
 .navigation {
     width: 95%;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
     color: rgb(2, 2, 2);
     padding: 40px;
 }
